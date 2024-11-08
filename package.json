@@ -1,0 +1,21 @@
+{
+  "name": "development",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.50.0-beta.5",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "markdown-it-magic-link": "^0.1.4",
+    "vue": "^3.5.12"
+  },
+  "packageManager": "pnpm@8.11.0+sha1.01bf39424f1008f29012bbae851d2acb8a20a0d0",
+  "devDependencies": {
+    "@iconify/json": "^2.2.269"
+  }
+}
