@@ -8,21 +8,27 @@ dependencies:
   '@slidev/cli':
     specifier: ^0.50.0-beta.5
     version: 0.50.0-beta.5(@types/markdown-it@14.1.2)(postcss@8.4.47)
+  '@slidev/client':
+    specifier: latest
+    version: 0.50.0-beta.5(postcss@8.4.47)(vite@5.4.10)
   '@slidev/theme-default':
     specifier: latest
     version: 0.25.0
   '@slidev/theme-seriph':
     specifier: latest
     version: 0.25.0
-  dayjs:
-    specifier: ^1.11.11
-    version: 1.11.13
   markdown-it-magic-link:
     specifier: ^0.1.4
     version: 0.1.4
+  seedrandom:
+    specifier: ^3.0.5
+    version: 3.0.5
   vue:
     specifier: ^3.5.12
     version: 3.5.12(typescript@5.6.3)
+  vue-router:
+    specifier: latest
+    version: 4.4.5(vue@3.5.12)
 
 devDependencies:
   '@iconify/json':
@@ -4969,6 +4975,10 @@ packages:
     dependencies:
       extend-shallow: 2.0.1
       kind-of: 6.0.3
+    dev: false
+
+  /seedrandom@3.0.5:
+    resolution: {integrity: sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==}
     dev: false
 
   /semver@6.3.1:

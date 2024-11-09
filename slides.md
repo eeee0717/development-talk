@@ -12,11 +12,12 @@ fonts:
   sans: LXGW WenKai Mono TC
 ---
 
-ChenTao's Roads to Development
+# ChenTao's Roads to Development
 
 ---
 layout: intro
 glowSeed: 14
+image: /background.png
 ---
 
 # 陈 涛
