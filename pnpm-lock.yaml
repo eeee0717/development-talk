@@ -14,6 +14,9 @@ dependencies:
   '@slidev/theme-seriph':
     specifier: latest
     version: 0.25.0
+  dayjs:
+    specifier: ^1.11.11
+    version: 1.11.13
   markdown-it-magic-link:
     specifier: ^0.1.4
     version: 0.1.4

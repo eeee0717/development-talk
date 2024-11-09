@@ -8,10 +8,10 @@ export default defineConfig({
       markdownItSetup(md) {
         md.use(MarkdownItMagicLink, {
           linksMap: {
-            'MicaApps': 'https://github.com/MicaApps',
             'Leetcode-master': 'https://github.com/youngyangyang04/leetcode-master',
-            'CS-base': 'https://github.com/xiaolincoder/CS-Base',
-            'BewlyBewly':'https://github.com/BewlyBewly/BewlyBewly'
+            'BewlyBewly':'https://github.com/BewlyBewly/BewlyBewly',
+            'Podwise-AI': 'https://github.com/eeee0717/podwise-ai-refactor',
+            'Subtitle-Translator-CLI': 'https://github.com/eeee0717/subtitle-translator-cli'
           }
         })
       },
