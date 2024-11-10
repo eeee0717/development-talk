@@ -8,6 +8,7 @@ mdc: true
 glowSeed: 4
 title: ChenTao's Journey
 description: ChenTao's journey of development.
+favicon: /me.jpg
 fonts:
   sans: LXGW WenKai Mono TC
 ---
@@ -17,7 +18,6 @@ fonts:
 ---
 layout: intro
 glowSeed: 14
-image: /background.png
 ---
 
 # 陈 涛
