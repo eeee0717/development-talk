@@ -10,8 +10,7 @@ export default defineConfig({
           linksMap: {
             'Leetcode-master': 'https://github.com/youngyangyang04/leetcode-master',
             'BewlyBewly':'https://github.com/BewlyBewly/BewlyBewly',
-            'Podwise-AI': 'https://github.com/eeee0717/podwise-ai-refactor',
-            'Subtitle-Translator-CLI': 'https://github.com/eeee0717/subtitle-translator-cli'
+            'MicaApps': 'https://github.com/MicaApps',
           }
         })
       },

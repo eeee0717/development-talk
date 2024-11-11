@@ -26,8 +26,7 @@ glowSeed: 14
 导师：石照耀教授<br>
 专业：机械工程<br>
 {Leetcode-master} {BewlyBewly} 贡献者<br>
-{Podwise-AI} {Subtitle-Translator-CLI} 作者<br>
-
+{MicaApps} 成员<br>
 </div>
 <div my-10 w-min flex="~ gap-1" items-center justify-center>
   <div i-ri-user-3-line op50 ma text-xl />
@@ -43,7 +42,7 @@ glowSeed: 14
 
 ---
 
-# Projects Gallery
+# 项目长廊
 <ListProjects />
 
 ---
