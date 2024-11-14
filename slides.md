@@ -13,7 +13,7 @@ fonts:
   sans: LXGW WenKai Mono TC
 ---
 
-# ChenTao's Roads to Development
+# The Roads to Development
 
 ---
 layout: intro
@@ -40,14 +40,11 @@ glowSeed: 14
 <img src="/me.jpg"  absolute top-30 right-45 w-40 rounded-full />
 <img src="/GitHub.png" absolute top-75 right-8 w-110  />
 
----
 
-# 项目长廊
-<ListProjects />
 
 ---
 layout: cover
-title: Anthony's Roads to Open Source
+title: Chen Tao's Roads to Development
 class: pl20
 ---
 
@@ -73,7 +70,12 @@ class: pl20
 
 ---
 
-# 学习编程的例子
+# 项目长廊
+<ListProjects />
+
+---
+
+# Tutorial Fever(教程热)
 
 <div mt-4 />
 
@@ -99,17 +101,17 @@ class: pl20
 glowSeed: 10
 ---
 
-# 如何学习「编程」?
+# 开源项目与学习「编程」
 
-<div v-click>以<span v-mark.orange="2">项目</span>为目标可以很好的帮助我们学习「编程」</div>
+<div v-click>通过<span v-mark.orange="2">开源项目</span>来学习是一条很好的路径</div>
+
 <div v-click/>
+
 <div flex="~ col gap-7" py10>
-
-<div v-click><div flex="~ inline" text-blue mr2 px2 rounded bg-blue:10>需求</div>从自己的需求出发，对问题有更深入的理解</div>
-<div v-click><div flex="~ inline" text-rose mr2 px2 rounded bg-rose:10>动力</div>解决自己的问题，同时或许也可以帮助到其他人</div>
-<div v-click><div flex="~ inline" text-yellow mr2 px2 rounded bg-yellow:10>验证</div>你的需求很可能也是别人的需求，通过社区验证你的想法</div>
-<div v-click><div flex="~ inline" text-green mr2 px2 rounded bg-green:10>迭代</div>社区讨论与贡献，完善设计</div>
-
+<div v-click><div flex="~ inline" text-blue mr2 px2 rounded bg-blue:10>需求</div>源于真实问题，有更深入的理解</div>
+<div v-click><div flex="~ inline" text-rose mr2 px2 rounded bg-rose:10>动力</div>解决实际痛点，并帮助他人</div>
+<div v-click><div flex="~ inline" text-yellow mr2 px2 rounded bg-yellow:10>成长</div>通过社区互动获得反馈与经验</div>
+<div v-click><div flex="~ inline" text-green mr2 px2 rounded bg-green:10>迭代</div>持续改进，形成良性循环</div>
 </div>
 
 <div absolute left-150 top-20>
@@ -190,39 +192,45 @@ glow: right
 glow: bottom
 ---
 
-# 对开源的期待
-
+# 开源的收获
 <div grid="~ cols-3 gap-2" py4>
   <div v-click flex="~ col gap-1" p4 rounded bg-violet:15 text-violet1>
-    <div text-2xl i-ph-gift-duotone text-violet mb2 />
-    <div>开源是一种礼物</div>
-    <div text-xs op50>Open Source is a Gift</div>
+    <div text-2xl i-ph-chart-line-up-duotone text-violet mb2 />
+    <div>技术能力的提升</div>
+    <div text-xs op50>Technical Growth</div>
   </div>
 
   <div v-click flex="~ col gap-1" p4 rounded bg-orange:15 text-orange1>
-    <div text-2xl i-ph-target-duotone text-orange mb2 />
-    <div>互惠不是目的</div>
-    <div text-xs op50>Reciprocity is not the Goal</div>
+    <div text-2xl i-ph-handshake-duotone text-orange mb2 />
+    <div>协作沟通的成长</div>
+    <div text-xs op50>Collaboration Skills</div>
   </div>
 
   <div v-click flex="~ col gap-1" p4 rounded bg-rose:15 text-rose1>
-    <div text-2xl i-ph-hand-heart-duotone text-rose mb2 />
-    <div>享受分享和合作的过程</div>
-    <div text-xs op50>Enjoy the Sharing and Collaboration</div>
+    <div text-2xl i-ph-circles-three-plus-duotone text-rose mb2 />
+    <div>扩展了视野边界</div>
+    <div text-xs op50>Broadened Horizons</div>
   </div>
 
   <div v-click flex="~ col gap-1" p4 rounded bg-green:15 text-green1>
-    <div text-2xl i-ph-hand-waving-duotone text-green mb2 />
-    <div>开源不只有代码</div>
-    <div text-xs op50>Open Source is more than Code</div>
+    <div text-2xl i-ph-gift-duotone text-green mb2 />
+    <div>帮助他人的快乐</div>
+    <div text-xs op50>Joy of Helping</div>
   </div>
 
   <div v-click flex="~ col gap-1" p4 rounded bg-blue:15 text-blue1>
-    <div text-2xl i-ph-users-three-duotone text-blue mb2 />
-    <div>开源的核心是社区</div>
-    <div text-xs op50>The Core of Open Source is Community</div>
+    <div text-2xl i-ph-path-duotone text-blue mb2 />
+    <div>持续前进的动力</div>
+    <div text-xs op50>Motivation to Continue</div>
+  </div>
+
+  <div v-click flex="~ col gap-1" p4 rounded bg-teal:15 text-teal1>
+    <div text-2xl i-ph-lightbulb-duotone text-teal mb2 />
+    <div>激发创新思维</div>
+    <div text-xs op50>Innovative Thinking</div>
   </div>
 </div>
+
 
 <div absolute bottom-10 v-click>
 <div op75 mb1>文章推荐</div>
